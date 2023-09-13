@@ -1,0 +1,18 @@
+{
+  "language": {
+    "en": {
+      "name": "ITPLUS Training",
+      "address": "number 1 Hoang Dao Thuy Street",
+      "course1": "Android",
+      "course2": "PHP",
+      "course3": "iOS"
+    },
+    "vn": {
+      "name": "Trung tâm đào tạo CNTT ITPLUS",
+      "address": "Số 1 đường Hoàng Đạo Thúy",
+      "course1": "Lập trình Android",
+      "course2": "Lập trình PHP",
+      "course3": "Lập trình iOS"
+    }
+  }
+}

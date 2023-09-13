@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/switchToVietnameseButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/vietnam"
+            android:layout_weight="1"
+            />
+
+        <ImageView
+            android:id="@+id/switchToEnglishButton"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/uk"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:id="@+id/nameTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name"
+        android:textSize="18sp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/addressTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Address"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/course1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course 1"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/course2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course 2"
+        android:textSize="16sp"/>
+
+    <TextView
+        android:id="@+id/course3TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Course 3"
+        android:textSize="16sp"/>
+
+</LinearLayout>
